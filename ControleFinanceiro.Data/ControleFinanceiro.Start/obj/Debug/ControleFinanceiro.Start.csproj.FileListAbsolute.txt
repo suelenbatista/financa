@@ -17,3 +17,6 @@ C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFi
 C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.csprojResolveAssemblyReference.cache
 C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.exe
 C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Start.exe.config
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.exe
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.pdb
