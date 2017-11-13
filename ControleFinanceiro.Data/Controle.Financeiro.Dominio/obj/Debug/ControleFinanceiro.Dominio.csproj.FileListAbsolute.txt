@@ -1,0 +1,14 @@
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\ControleFinanceiro.Dominio.dll.config
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\ControleFinanceiro.Dominio.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\ControleFinanceiro.Dominio.pdb
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\ControleFinanceiro.Data.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\EntityFramework.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\EntityFramework.Extended.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\ControleFinanceiro.Data.pdb
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\EntityFramework.xml
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\EntityFramework.Extended.xml
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\obj\Debug\ControleFinanceiro.Dominio.csprojResolveAssemblyReference.cache
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\obj\Debug\ControleFinanceiro.Dominio.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\Controle.Financeiro.Dominio\obj\Debug\ControleFinanceiro.Dominio.pdb

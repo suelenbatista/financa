@@ -1,0 +1,14 @@
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Generico.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Generico.pdb
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Data.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Dominio.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\Newtonsoft.Json.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\RestSharp.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\EntityFramework.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Dominio.pdb
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Data.pdb
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\Newtonsoft.Json.xml
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\EntityFramework.xml
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\obj\Debug\ControleFinanceiro.Generico.csprojResolveAssemblyReference.cache
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\obj\Debug\ControleFinanceiro.Generico.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\obj\Debug\ControleFinanceiro.Generico.pdb

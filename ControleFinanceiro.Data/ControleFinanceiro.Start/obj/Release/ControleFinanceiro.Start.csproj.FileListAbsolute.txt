@@ -1,0 +1,14 @@
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\ControleFinanceiro.Start.exe.config
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\ControleFinanceiro.Start.exe
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\ControleFinanceiro.Start.pdb
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\ControleFinanceiro.Data.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\ControleFinanceiro.Dominio.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\EntityFramework.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\EntityFramework.SqlServer.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\ControleFinanceiro.Dominio.pdb
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\ControleFinanceiro.Data.pdb
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\EntityFramework.xml
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Release\EntityFramework.SqlServer.xml
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Release\ControleFinanceiro.Start.csprojResolveAssemblyReference.cache
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Release\ControleFinanceiro.Start.exe
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Release\ControleFinanceiro.Start.pdb

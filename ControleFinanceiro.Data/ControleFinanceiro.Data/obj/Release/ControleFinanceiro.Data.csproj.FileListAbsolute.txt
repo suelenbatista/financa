@@ -1,0 +1,10 @@
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\bin\Release\ControleFinanceiro.Data.dll.config
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\bin\Release\ControleFinanceiro.Data.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\bin\Release\ControleFinanceiro.Data.pdb
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\bin\Release\EntityFramework.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\bin\Release\EntityFramework.xml
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\obj\Release\ControleFinanceiro.Data.csprojResolveAssemblyReference.cache
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\obj\Release\ControleFinanceiro.Data.dll
+C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Data\obj\Release\ControleFinanceiro.Data.pdb
