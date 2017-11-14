@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ControleFinanceiro.Entidades.Entidade
+namespace ControleFinanceiro.Entidade.Enum
 {
     public class ContaContabil
     {

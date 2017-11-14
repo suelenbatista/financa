@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ControleFinanceiro.Entidades.Enum;
 
-namespace ControleFinanceiro.Entidades.Entidade
+namespace ControleFinanceiro.Entidade.Enum
 {
     public class Movimento
     {

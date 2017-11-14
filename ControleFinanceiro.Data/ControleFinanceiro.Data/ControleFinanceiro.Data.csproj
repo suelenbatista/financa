@@ -68,9 +68,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ControleFinanceiro.Entidades\ControleFinanceiro.Entidades.csproj">
+    <ProjectReference Include="..\ControleFinanceiro.Entidades\ControleFinanceiro.Entidade.csproj">
       <Project>{01fb0897-845c-44b8-b424-3492b49ebb85}</Project>
-      <Name>ControleFinanceiro.Entidades</Name>
+      <Name>ControleFinanceiro.Entidade</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

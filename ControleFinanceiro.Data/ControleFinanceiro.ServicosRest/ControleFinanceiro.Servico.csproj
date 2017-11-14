@@ -305,9 +305,9 @@
       <Project>{ea55cff8-b221-48c3-8d65-f14ee4d135d3}</Project>
       <Name>ControleFinanceiro.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ControleFinanceiro.Entidades\ControleFinanceiro.Entidades.csproj">
+    <ProjectReference Include="..\ControleFinanceiro.Entidades\ControleFinanceiro.Entidade.csproj">
       <Project>{01fb0897-845c-44b8-b424-3492b49ebb85}</Project>
-      <Name>ControleFinanceiro.Entidades</Name>
+      <Name>ControleFinanceiro.Entidade</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

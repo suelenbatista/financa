@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Entidades.Entidade
+namespace ControleFinanceiro.Entidade.Enum
 {
     public class Investimento
     {

@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Entidades.Entidade;
+﻿using ControleFinanceiro.Entidade.Enum;
 using ControleFinanceiro.ServicosRest.Models;
 using System;
 using System.Collections.Generic;

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ControleFinanceiro.Entidades.Enum;
+using ControleFinanceiro.Entidade.Enum;
 
-namespace ControleFinanceiro.Entidades.Entidade
+namespace ControleFinanceiro.Entidade.Enum
 {
     public class MovimentoBaixa
     {

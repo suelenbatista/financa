@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Start", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Generico", "ControleFinanceiro.Generico\ControleFinanceiro.Generico.csproj", "{5B430B6A-A27C-4707-9E28-CBA1CAF8FB62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Entidades", "ControleFinanceiro.Entidades\ControleFinanceiro.Entidades.csproj", "{01FB0897-845C-44B8-B424-3492B49EBB85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Entidade", "ControleFinanceiro.Entidades\ControleFinanceiro.Entidade.csproj", "{01FB0897-845C-44B8-B424-3492B49EBB85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

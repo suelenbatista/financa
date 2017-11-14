@@ -74,7 +74,7 @@ C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFi
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\Antlr3.Runtime.dll
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\ControleFinanceiro.Data.dll
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\ControleFinanceiro.Dominio.dll
-C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\ControleFinanceiro.Entidades.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\ControleFinanceiro.Entidade.dll
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\EntityFramework.dll
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\EntityFramework.SqlServer.dll
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\Microsoft.AspNet.Identity.Core.dll
@@ -108,7 +108,7 @@ C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFi
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\WebGrease.dll
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\ControleFinanceiro.Dominio.pdb
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\ControleFinanceiro.Data.pdb
-C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\ControleFinanceiro.Entidades.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\ControleFinanceiro.Entidade.pdb
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\System.IdentityModel.Tokens.Jwt.xml
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\Newtonsoft.Json.xml
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.ServicosRest\bin\System.Net.Http.Formatting.xml

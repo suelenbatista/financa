@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Entidades.Entidade;
+﻿using ControleFinanceiro.Entidade.Enum;
 using ControleFinanceiro.Dominio.Servico;
 using System;
 using System.Collections.Generic;

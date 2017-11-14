@@ -8,7 +8,7 @@ using System.Net;
 using System.IO;
 using ControleFinanceiro.Generics.Servicos;
 using ControleFinanceiro.Generics.Util;
-using ControleFinanceiro.Entidades.Entidade;
+using ControleFinanceiro.Entidade.Enum;
 
 namespace ControleFinanceiro.Start
 {
@@ -27,7 +27,7 @@ namespace ControleFinanceiro.Start
 
             oPessoa = new Pessoa
             {
-                Tipo = Entidades.Enum.TipoPessoa.Fisica,
+                Tipo = Entidade.Enum.TipoPessoa.Fisica,
                 Nome = "Rosimeire da Silva",
                 Documento = "0980989008",
                 DataCadastro = DateTime.Now,
@@ -78,7 +78,7 @@ namespace ControleFinanceiro.Start
             var pessoa = new Pessoa
             {
                 Nome = "Laís Moreira",
-                Tipo = Entidades.Enum.TipoPessoa.Fisica,
+                Tipo = Entidade.Enum.TipoPessoa.Fisica,
                 Documento = "39338667820",
                 DataCadastro = DateTime.Now
             };
