@@ -12,3 +12,19 @@ C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFi
 C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\obj\Debug\ControleFinanceiro.Generico.csprojResolveAssemblyReference.cache
 C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\obj\Debug\ControleFinanceiro.Generico.dll
 C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Generico\obj\Debug\ControleFinanceiro.Generico.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Generico.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Generico.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Dominio.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Entidades.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\Newtonsoft.Json.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\RestSharp.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Data.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\EntityFramework.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Dominio.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Entidades.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\Newtonsoft.Json.xml
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\ControleFinanceiro.Data.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\bin\Debug\EntityFramework.xml
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\obj\Debug\ControleFinanceiro.Generico.csprojResolveAssemblyReference.cache
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\obj\Debug\ControleFinanceiro.Generico.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Generico\obj\Debug\ControleFinanceiro.Generico.pdb

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ControleFinanceiro.Data.Enum;
+using ControleFinanceiro.Entidades.Enum;
 
-namespace ControleFinanceiro.Data.Model
+namespace ControleFinanceiro.Entidades.Entidade
 {
     public class Movimento
     {

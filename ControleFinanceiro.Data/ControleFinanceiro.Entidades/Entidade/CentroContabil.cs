@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ControleFinanceiro.Data.Model
+namespace ControleFinanceiro.Entidades.Entidade
 {
     public class CentroContabil
     {

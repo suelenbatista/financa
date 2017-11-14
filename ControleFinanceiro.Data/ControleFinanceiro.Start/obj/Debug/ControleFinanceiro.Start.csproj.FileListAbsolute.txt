@@ -18,5 +18,23 @@ C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFi
 C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.exe
 C:\Projetos\DOCUMENTAÇÃO\PROJETO - CONTROLE\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.pdb
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Start.exe.config
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Start.exe
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Start.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Data.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Dominio.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Entidades.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Generico.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\EntityFramework.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\EntityFramework.SqlServer.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\RestSharp.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\Newtonsoft.Json.dll
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Dominio.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Data.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Entidades.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\ControleFinanceiro.Generico.pdb
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\EntityFramework.xml
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\EntityFramework.SqlServer.xml
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\bin\Debug\Newtonsoft.Json.xml
+C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.csprojResolveAssemblyReference.cache
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.exe
 C:\Arquivos\ProjetosSuelen\ControleFinanceiro\ControleFinanceiro.Data\ControleFinanceiro.Start\obj\Debug\ControleFinanceiro.Start.pdb

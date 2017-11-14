@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace ControleFinanceiro.Dominio.Servico
 {
-    public class InvestimentoMovServico: ServicoBase<InvestimentoMov>
+    public class MovimentoRateioServico : ServicoBase<MovimentoRateio>
     {
-        public InvestimentoMovServico(DbFinancaContext oDbContext) : base(oDbContext)
+        public MovimentoRateioServico(DbFinancaContext oDbFinanca) : base (oDbFinanca)
         {
         }
     }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Data.Model
+namespace ControleFinanceiro.Entidades.Entidade
 {
     public class MovimentoRateio
     {

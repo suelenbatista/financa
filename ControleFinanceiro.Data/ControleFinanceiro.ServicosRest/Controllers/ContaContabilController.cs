@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Data.Model;
+﻿using ControleFinanceiro.Entidades.Entidade;
 using ControleFinanceiro.ServicosRest.Models;
 using System;
 using System.Collections.Generic;

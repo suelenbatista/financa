@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Data.Model;
+﻿using ControleFinanceiro.Entidades.Entidade;
 using Newtonsoft.Json;
 using RestSharp;
 using System;

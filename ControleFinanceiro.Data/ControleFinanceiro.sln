@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Start", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Generico", "ControleFinanceiro.Generico\ControleFinanceiro.Generico.csproj", "{5B430B6A-A27C-4707-9E28-CBA1CAF8FB62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Entidades", "ControleFinanceiro.Entidades\ControleFinanceiro.Entidades.csproj", "{01FB0897-845C-44B8-B424-3492B49EBB85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5B430B6A-A27C-4707-9E28-CBA1CAF8FB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B430B6A-A27C-4707-9E28-CBA1CAF8FB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B430B6A-A27C-4707-9E28-CBA1CAF8FB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01FB0897-845C-44B8-B424-3492B49EBB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FB0897-845C-44B8-B424-3492B49EBB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FB0897-845C-44B8-B424-3492B49EBB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FB0897-845C-44B8-B424-3492B49EBB85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

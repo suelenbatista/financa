@@ -1,5 +1,5 @@
 ﻿using ControleFinanceiro.Data.Context;
-using ControleFinanceiro.Data.Model;
+using ControleFinanceiro.Entidades.Entidade;
 using System;
 using System.Collections.Generic;
 using System.Linq;

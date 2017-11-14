@@ -1,8 +1,8 @@
-﻿using ControleFinanceiro.Data.Enum;
+﻿using ControleFinanceiro.Entidades.Enum;
 using System;
 using System.Collections.Generic;
 
-namespace ControleFinanceiro.Data.Model
+namespace ControleFinanceiro.Entidades.Entidade
 {
     public class ContaContabil
     {

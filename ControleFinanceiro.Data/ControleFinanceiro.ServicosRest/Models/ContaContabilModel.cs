@@ -1,5 +1,5 @@
 ﻿using ControleFinanceiro.Data.Context;
-using ControleFinanceiro.Data.Model;
+using ControleFinanceiro.Entidades.Entidade;
 using ControleFinanceiro.Dominio.Servico;
 using System;
 using System.Collections.Generic;

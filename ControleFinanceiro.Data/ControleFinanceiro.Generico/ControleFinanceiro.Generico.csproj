@@ -64,9 +64,9 @@
       <Project>{534cfad9-b023-44b6-8e4b-e1644457f485}</Project>
       <Name>ControleFinanceiro.Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ControleFinanceiro.Data\ControleFinanceiro.Data.csproj">
-      <Project>{ea55cff8-b221-48c3-8d65-f14ee4d135d3}</Project>
-      <Name>ControleFinanceiro.Data</Name>
+    <ProjectReference Include="..\ControleFinanceiro.Entidades\ControleFinanceiro.Entidades.csproj">
+      <Project>{01fb0897-845c-44b8-b424-3492b49ebb85}</Project>
+      <Name>ControleFinanceiro.Entidades</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

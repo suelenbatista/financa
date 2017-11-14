@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace ControleFinanceiro.Data.Enum
+namespace ControleFinanceiro.Entidades.Enum
 {
     public enum TipoPessoa
     {

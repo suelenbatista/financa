@@ -4,9 +4,9 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ControleFinanceiro.Data.Model;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using ControleFinanceiro.Data.Configuration;
+using ControleFinanceiro.Entidades.Entidade;
 
 namespace ControleFinanceiro.Data.Context
 {

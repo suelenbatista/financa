@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Data.Model;
+﻿using ControleFinanceiro.Entidades.Entidade;
 using System.Data.Entity.ModelConfiguration;
 
 namespace ControleFinanceiro.Data.Configuration

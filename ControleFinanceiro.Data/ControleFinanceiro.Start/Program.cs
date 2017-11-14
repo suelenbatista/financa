@@ -1,5 +1,4 @@
 ﻿using ControleFinanceiro.Data.Context;
-using ControleFinanceiro.Data.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +8,7 @@ using System.Net;
 using System.IO;
 using ControleFinanceiro.Generics.Servicos;
 using ControleFinanceiro.Generics.Util;
+using ControleFinanceiro.Entidades.Entidade;
 
 namespace ControleFinanceiro.Start
 {
@@ -27,7 +27,7 @@ namespace ControleFinanceiro.Start
 
             oPessoa = new Pessoa
             {
-                Tipo = Data.Enum.TipoPessoa.Fisica,
+                Tipo = Entidades.Enum.TipoPessoa.Fisica,
                 Nome = "Rosimeire da Silva",
                 Documento = "0980989008",
                 DataCadastro = DateTime.Now,
@@ -78,7 +78,7 @@ namespace ControleFinanceiro.Start
             var pessoa = new Pessoa
             {
                 Nome = "Laís Moreira",
-                Tipo = Data.Enum.TipoPessoa.Fisica,
+                Tipo = Entidades.Enum.TipoPessoa.Fisica,
                 Documento = "39338667820",
                 DataCadastro = DateTime.Now
             };
