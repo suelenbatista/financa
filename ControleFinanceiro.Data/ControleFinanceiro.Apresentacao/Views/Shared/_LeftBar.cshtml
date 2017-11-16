@@ -1,0 +1,99 @@
+﻿
+<aside class="main-sidebar">
+    <section class="sidebar">
+        <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="Busca..." />
+                <span class="input-group-btn">
+                    <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+
+        <ul class="sidebar-menu">
+            <li class="header">Menu</li>
+            <li class="treeview">
+                <a href="@Url.Action("Index","Log")">
+                    <i class="fa fa-files-o"></i><span>LOG'S</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="@Url.Action("Index", "GerarArquivoCobranca")">
+                    <i class="fa fa-file"></i><span>Gerar Arquivo Cobrança</span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-gears"></i><span>Gerenciar - RVNE</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="@Url.Action("Index", "EmissaoBoletoRVNE")"><i class="fa fa-file"></i><span>Imprimir Boleto</span></a></li>
+                    <li><a href="@Url.Action("Index", "AlterarBoletoRVNE")"><i class="fa fa-file"></i><span>Excluir Cobrança</span></a></li>
+                </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="@Url.Action("Index", "Coverage")">
+                    <i class="fa fa-shield"></i><span>Coberturas</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-gears"></i><span>Parâmetros</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="@Url.Action("Genesis", "Parameters")"><i class="fa fa-gear"></i>Gênesis</a></li>
+                    <li><a href="@Url.Action("OIM", "Parameters")"><i class="fa fa-gear"></i>OIM</a></li>
+                    <li><a href="@Url.Action("Index", "Sequence")"><i class="fa fa-gear"></i>Sequência</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="@Url.Action("Index", "BoletoAvulso")">
+                    <i class="fa fa-money"></i><span>Boleto Avulso</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="@Url.Action("Index", "ExcecoesGenesis")">
+                    <i class="fa fa-times-circle"></i><span>Exceções Genesis</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="@Url.Action("Index", "ConciliacaoBancaria")">
+                    <i class="fa fa-bank"></i><span>Conciliação Bancária</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="@Url.Action("Index", "BoletosNaoVinculados")">
+                    <i class="fa fa-barcode"></i><span>Boletos não viculados</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="@Url.Action("Create", "BaixaPremio")">
+                    <i class="fa fa-dollar"></i><span>Baixa de Prêmio</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="@Url.Action("Index", "Cancelamento")">
+                    <i class="fa fa-times-circle"></i><span>Cancelamento Automático</span>
+                </a>
+            </li>
+
+            <li class="treeview">
+                <a href="@Url.Action("Index", "BaixaCredito")">
+                    <i class="fa fa-money"></i><span>Baixa de Crédito em Conta</span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="@Url.Action("Index", "AtualizarArquivo")">
+                    <i class="fa fa-refresh"></i><span>Reenviar Arquivo/Sinistro</span>
+                </a>
+            </li>
+
+            <li class="treeview">
+                <a href="@Url.Action("Index", "CancelarApolicePorIdArquivo")">
+                    <i class="fa fa-eraser"></i><span>Cancelar Apl. Individuais</span><i class="fa fa-angle-left pull-right"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+</aside>
