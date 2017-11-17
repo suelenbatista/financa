@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidade\SistemaArquivo.cs" />
     <Compile Include="Entidade\CentroContabil.cs" />
     <Compile Include="Entidade\ContaBancaria.cs" />
     <Compile Include="Entidade\ContaContabil.cs" />
@@ -47,7 +48,9 @@
     <Compile Include="Entidade\Movimento.cs" />
     <Compile Include="Entidade\MovimentoBaixa.cs" />
     <Compile Include="Entidade\MovimentoRateio.cs" />
+    <Compile Include="Entidade\SistemaPerfil.cs" />
     <Compile Include="Entidade\Pessoa.cs" />
+    <Compile Include="Entidade\SistemaUsuario.cs" />
     <Compile Include="Enum\GrupoContabil.cs" />
     <Compile Include="Enum\GrupoInvestimento.cs" />
     <Compile Include="Enum\StatusMovimento.cs" />
