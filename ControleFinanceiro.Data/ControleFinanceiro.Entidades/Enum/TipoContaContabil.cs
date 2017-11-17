@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Entidades.Enum
+namespace ControleFinanceiro.Entidade.Enum
 {
     public enum TipoContaContabil
     {

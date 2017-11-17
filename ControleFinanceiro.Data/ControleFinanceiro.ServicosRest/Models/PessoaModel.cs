@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using ControleFinanceiro.Entidade.Entidade;
 
 namespace ControleFinanceiro.ServicosRest.Models
 {

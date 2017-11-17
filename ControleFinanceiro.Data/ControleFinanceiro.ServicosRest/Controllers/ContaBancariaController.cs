@@ -9,15 +9,15 @@ using System.Web.Http;
 
 namespace ControleFinanceiro.ServicosRest.Controllers
 {
-    public class ContaContabilController : ApiController
+    public class ContaBancariaController : ApiController
     {
         [HttpGet]
         public IHttpActionResult Get()
         {
             try
             {
-                List<ContaContabil> oListaContaContabil = new ContaContabilModel().ObterContaContabil();
-                return Ok(oListaContaContabil);
+                List<ContaBancaria> oListaContaBancaria = new ContaBancariaModel().ObterContaBancaria();
+                return Ok(oListaContaBancaria);
             }
             catch (Exception)
             {
@@ -30,8 +30,8 @@ namespace ControleFinanceiro.ServicosRest.Controllers
         {
             try
             {
-                ContaContabil oContaContabil = new ContaContabilModel().ObterContaContabilPorId(id);
-                return Ok(oContaContabil);
+                ContaBancaria oContaBancaria = new ContaBancariaModel().ObterContaBancariaPorId(id);
+                return Ok(oContaBancaria);
             }
             catch (Exception)
             {
@@ -40,18 +40,18 @@ namespace ControleFinanceiro.ServicosRest.Controllers
         }
 
         [HttpPost]
-        public HttpResponseMessage Post([FromBody]ContaContabil contaContabil)
+        public HttpResponseMessage Post([FromBody]ContaBancaria ContaBancaria)
         {
-            if (new ContaContabilModel().CadastrarContaContabil(contaContabil))
+            if (new ContaBancariaModel().CadastrarContaBancaria(ContaBancaria))
             {
-                var response = Request.CreateResponse<ContaContabil>(HttpStatusCode.Created, contaContabil);
-                string uri = Url.Link("DefaultApi", new { id = contaContabil.IdContaContabil });
+                var response = Request.CreateResponse<ContaBancaria>(HttpStatusCode.Created, ContaBancaria);
+                string uri = Url.Link("DefaultApi", new { id = ContaBancaria.IdConta });
                 response.Headers.Location = new Uri(uri);
                 return response;
             }
             else
             {
-                var response = Request.CreateResponse<ContaContabil>(HttpStatusCode.BadRequest, contaContabil);
+                var response = Request.CreateResponse<ContaBancaria>(HttpStatusCode.BadRequest, ContaBancaria);
                 string uri = Url.Link("DefaultApi", new { id = 0 });
                 response.Headers.Location = new Uri(uri);
                 return response;
@@ -59,7 +59,7 @@ namespace ControleFinanceiro.ServicosRest.Controllers
         }
 
         [HttpPut]
-        public HttpResponseMessage Put(int id, [FromBody]ContaContabil contaContabil)
+        public HttpResponseMessage Put(int id, [FromBody]ContaBancaria ContaBancaria)
         {
             try
             {
@@ -68,12 +68,12 @@ namespace ControleFinanceiro.ServicosRest.Controllers
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
                 }
 
-                if (id != contaContabil.IdContaContabil)
+                if (id != ContaBancaria.IdConta)
                 {
                     return Request.CreateResponse(HttpStatusCode.BadRequest);
                 }
 
-                bool isAtualizado = new ContaContabilModel().AtualizarContaContabil(id, contaContabil);
+                bool isAtualizado = new ContaBancariaModel().AtualizarContaBancaria(id, ContaBancaria);
 
                 if (!isAtualizado)
                 {
@@ -100,7 +100,7 @@ namespace ControleFinanceiro.ServicosRest.Controllers
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
                 }
 
-                bool isDeleted = new ContaContabilModel().DeletarContaContabil(id);
+                bool isDeleted = new ContaBancariaModel().DeletarContaBancaria(id);
 
                 if (!isDeleted)
                 {
@@ -116,5 +116,6 @@ namespace ControleFinanceiro.ServicosRest.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.NotFound, ex.Message.ToString());
             }
         }
+
     }
 }

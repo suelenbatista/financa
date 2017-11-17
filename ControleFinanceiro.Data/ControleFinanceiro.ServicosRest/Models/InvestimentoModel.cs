@@ -1,41 +1,40 @@
 ﻿using ControleFinanceiro.Data.Context;
-using ControleFinanceiro.Entidade.Enum;
 using ControleFinanceiro.Dominio.Servico;
+using ControleFinanceiro.Entidade.Entidade;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using ControleFinanceiro.Entidade.Entidade;
 
 namespace ControleFinanceiro.ServicosRest.Models
 {
-    public class CentroContabilModel: IDisposable
+    public class InvestimentoModel : IDisposable
     {
-        CentroContabilServico oServico;
-        DbFinancaContext oFinancaContexto;
+        DbFinancaContext oDbFinancaContext;
+        InvestimentoServico oServico;
 
-        public CentroContabilModel()
+        public InvestimentoModel()
         {
-            oFinancaContexto = new DbFinancaContext();
-            oServico = new CentroContabilServico(oFinancaContexto);
+            oDbFinancaContext = new DbFinancaContext();
+            oServico = new InvestimentoServico(oDbFinancaContext);
         }
 
-        public List<CentroContabil> ObterCentroContabil()
+        public List<Investimento> ObterInvestimento()
         {
-            List<CentroContabil> oListaCentroContabil = oServico.Listar();
-            return oListaCentroContabil;
+            List<Investimento> oListaInvestimento = oServico.Listar();
+            return oListaInvestimento;
         }
 
-        public CentroContabil ObterCentroContabilPorId(int id)
+        public Investimento ObterInvestimentoPorId(int id)
         {
             return oServico.ObterPorId(id);
         }
 
-        public bool CadastrarCentroContabil(CentroContabil centroContabil)
+        public bool CadastrarInvestimento(Investimento Investimento)
         {
             try
             {
-                oServico.Adicionar(centroContabil);
+                oServico.Adicionar(Investimento);
                 oServico.SalvarContexto();
 
                 return true;
@@ -46,16 +45,16 @@ namespace ControleFinanceiro.ServicosRest.Models
             }
         }
 
-        public bool DeletarCentroContabil(int id)
+        public bool DeletarInvestimento(int id)
         {
             bool isDeleted = false;
 
             try
             {
-                CentroContabil centroContabil = ObterCentroContabilPorId(id);
-                if (centroContabil != null)
+                Investimento Investimento = ObterInvestimentoPorId(id);
+                if (Investimento != null)
                 {
-                    oServico.Remover(centroContabil);
+                    oServico.Remover(Investimento);
                     oServico.SalvarContexto();
                     isDeleted = true;
                 }
@@ -68,17 +67,17 @@ namespace ControleFinanceiro.ServicosRest.Models
             }
         }
 
-        public bool AtualizarCentroContabil(int id, CentroContabil centroContabilUpdate)
+        public bool AtualizarInvestimento(int id, Investimento InvestimentoUpdate)
         {
             bool isUpdate = false;
 
             try
             {
-                CentroContabil centroCotanbil = ObterCentroContabilPorId(id);
+                Investimento Investimento = ObterInvestimentoPorId(id);
 
-                if (centroCotanbil != null)
+                if (Investimento != null)
                 {
-                    oServico.Alterar(centroContabilUpdate, id);
+                    oServico.Alterar(InvestimentoUpdate, id);
                     oServico.SalvarContexto();
                     isUpdate = true;
                 }
@@ -94,7 +93,7 @@ namespace ControleFinanceiro.ServicosRest.Models
         public void Dispose()
         {
             oServico.Dispose();
-            oFinancaContexto.Dispose();
+            oDbFinancaContext.Dispose();
         }
     }
 }

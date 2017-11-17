@@ -9,15 +9,15 @@ using System.Web.Http;
 
 namespace ControleFinanceiro.ServicosRest.Controllers
 {
-    public class ContaContabilController : ApiController
+    public class InvestimentoController : ApiController
     {
         [HttpGet]
         public IHttpActionResult Get()
         {
             try
             {
-                List<ContaContabil> oListaContaContabil = new ContaContabilModel().ObterContaContabil();
-                return Ok(oListaContaContabil);
+                List<Investimento> oListaInvestimento = new InvestimentoModel().ObterInvestimento();
+                return Ok(oListaInvestimento);
             }
             catch (Exception)
             {
@@ -30,8 +30,8 @@ namespace ControleFinanceiro.ServicosRest.Controllers
         {
             try
             {
-                ContaContabil oContaContabil = new ContaContabilModel().ObterContaContabilPorId(id);
-                return Ok(oContaContabil);
+                Investimento oInvestimento = new InvestimentoModel().ObterInvestimentoPorId(id);
+                return Ok(oInvestimento);
             }
             catch (Exception)
             {
@@ -40,18 +40,18 @@ namespace ControleFinanceiro.ServicosRest.Controllers
         }
 
         [HttpPost]
-        public HttpResponseMessage Post([FromBody]ContaContabil contaContabil)
+        public HttpResponseMessage Post([FromBody]Investimento Investimento)
         {
-            if (new ContaContabilModel().CadastrarContaContabil(contaContabil))
+            if (new InvestimentoModel().CadastrarInvestimento(Investimento))
             {
-                var response = Request.CreateResponse<ContaContabil>(HttpStatusCode.Created, contaContabil);
-                string uri = Url.Link("DefaultApi", new { id = contaContabil.IdContaContabil });
+                var response = Request.CreateResponse<Investimento>(HttpStatusCode.Created, Investimento);
+                string uri = Url.Link("DefaultApi", new { id = Investimento.IdInvest });
                 response.Headers.Location = new Uri(uri);
                 return response;
             }
             else
             {
-                var response = Request.CreateResponse<ContaContabil>(HttpStatusCode.BadRequest, contaContabil);
+                var response = Request.CreateResponse<Investimento>(HttpStatusCode.BadRequest, Investimento);
                 string uri = Url.Link("DefaultApi", new { id = 0 });
                 response.Headers.Location = new Uri(uri);
                 return response;
@@ -59,7 +59,7 @@ namespace ControleFinanceiro.ServicosRest.Controllers
         }
 
         [HttpPut]
-        public HttpResponseMessage Put(int id, [FromBody]ContaContabil contaContabil)
+        public HttpResponseMessage Put(int id, [FromBody]Investimento Investimento)
         {
             try
             {
@@ -68,12 +68,12 @@ namespace ControleFinanceiro.ServicosRest.Controllers
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
                 }
 
-                if (id != contaContabil.IdContaContabil)
+                if (id != Investimento.IdInvest)
                 {
                     return Request.CreateResponse(HttpStatusCode.BadRequest);
                 }
 
-                bool isAtualizado = new ContaContabilModel().AtualizarContaContabil(id, contaContabil);
+                bool isAtualizado = new InvestimentoModel().AtualizarInvestimento(id, Investimento);
 
                 if (!isAtualizado)
                 {
@@ -100,7 +100,7 @@ namespace ControleFinanceiro.ServicosRest.Controllers
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
                 }
 
-                bool isDeleted = new ContaContabilModel().DeletarContaContabil(id);
+                bool isDeleted = new InvestimentoModel().DeletarInvestimento(id);
 
                 if (!isDeleted)
                 {
@@ -116,5 +116,6 @@ namespace ControleFinanceiro.ServicosRest.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.NotFound, ex.Message.ToString());
             }
         }
+
     }
 }

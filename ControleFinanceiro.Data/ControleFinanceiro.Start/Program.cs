@@ -6,9 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 using System.IO;
+using ControleFinanceiro.Entidade.Entidade;
 using ControleFinanceiro.Generics.Servicos;
 using ControleFinanceiro.Generics.Util;
-using ControleFinanceiro.Entidade.Enum;
+
 
 namespace ControleFinanceiro.Start
 {

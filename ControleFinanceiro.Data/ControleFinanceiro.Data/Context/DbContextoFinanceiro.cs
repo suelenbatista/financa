@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using ControleFinanceiro.Data.Configuration;
-using ControleFinanceiro.Entidade.Enum;
+using ControleFinanceiro.Entidade.Entidade;
 
 namespace ControleFinanceiro.Data.Context
 {

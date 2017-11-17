@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Entidade.Enum;
+﻿using ControleFinanceiro.Entidade.Entidade;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;

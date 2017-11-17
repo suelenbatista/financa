@@ -1,4 +1,5 @@
-﻿using ControleFinanceiro.Entidade.Enum;
+﻿using ControleFinanceiro.Entidade.Entidade;
+using ControleFinanceiro.Entidade.Enum;
 using Newtonsoft.Json;
 using RestSharp;
 using System;

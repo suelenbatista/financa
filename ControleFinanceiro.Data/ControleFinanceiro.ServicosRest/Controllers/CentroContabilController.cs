@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using ControleFinanceiro.Entidade.Enum;
+using ControleFinanceiro.Entidade.Entidade;
 using ControleFinanceiro.ServicosRest.Models;
 
 namespace ControleFinanceiro.ServicosRest.Controllers

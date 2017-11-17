@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace ControleFinanceiro.Entidades.Enum
+namespace ControleFinanceiro.Entidade.Enum
 {
     public enum TipoMovimento
     {

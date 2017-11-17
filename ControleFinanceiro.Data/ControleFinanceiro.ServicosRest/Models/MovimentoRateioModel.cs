@@ -1,41 +1,40 @@
 ﻿using ControleFinanceiro.Data.Context;
-using ControleFinanceiro.Entidade.Enum;
 using ControleFinanceiro.Dominio.Servico;
+using ControleFinanceiro.Entidade.Entidade;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using ControleFinanceiro.Entidade.Entidade;
 
 namespace ControleFinanceiro.ServicosRest.Models
 {
-    public class CentroContabilModel: IDisposable
+    public class MovimentoRateioModel : IDisposable
     {
-        CentroContabilServico oServico;
-        DbFinancaContext oFinancaContexto;
+         DbFinancaContext oDbFinancaContext;
+         MovimentoRateioServico oServico;
 
-        public CentroContabilModel()
+        public MovimentoRateioModel()
         {
-            oFinancaContexto = new DbFinancaContext();
-            oServico = new CentroContabilServico(oFinancaContexto);
+            oDbFinancaContext = new DbFinancaContext();
+            oServico = new MovimentoRateioServico(oDbFinancaContext);
         }
 
-        public List<CentroContabil> ObterCentroContabil()
+        public List<MovimentoRateio> ObterMovimentoRateio()
         {
-            List<CentroContabil> oListaCentroContabil = oServico.Listar();
-            return oListaCentroContabil;
+            List<MovimentoRateio> oListaMovimentoRateio = oServico.Listar();
+            return oListaMovimentoRateio;
         }
 
-        public CentroContabil ObterCentroContabilPorId(int id)
+        public MovimentoRateio ObterMovimentoRateioPorId(int id)
         {
             return oServico.ObterPorId(id);
         }
 
-        public bool CadastrarCentroContabil(CentroContabil centroContabil)
+        public bool CadastrarMovimentoRateio(MovimentoRateio MovimentoRateio)
         {
             try
             {
-                oServico.Adicionar(centroContabil);
+                oServico.Adicionar(MovimentoRateio);
                 oServico.SalvarContexto();
 
                 return true;
@@ -46,16 +45,16 @@ namespace ControleFinanceiro.ServicosRest.Models
             }
         }
 
-        public bool DeletarCentroContabil(int id)
+        public bool DeletarMovimentoRateio(int id)
         {
             bool isDeleted = false;
 
             try
             {
-                CentroContabil centroContabil = ObterCentroContabilPorId(id);
-                if (centroContabil != null)
+                MovimentoRateio MovimentoRateio = ObterMovimentoRateioPorId(id);
+                if (MovimentoRateio != null)
                 {
-                    oServico.Remover(centroContabil);
+                    oServico.Remover(MovimentoRateio);
                     oServico.SalvarContexto();
                     isDeleted = true;
                 }
@@ -68,17 +67,17 @@ namespace ControleFinanceiro.ServicosRest.Models
             }
         }
 
-        public bool AtualizarCentroContabil(int id, CentroContabil centroContabilUpdate)
+        public bool AtualizarMovimentoRateio(int id, MovimentoRateio MovimentoRateioUpdate)
         {
             bool isUpdate = false;
 
             try
             {
-                CentroContabil centroCotanbil = ObterCentroContabilPorId(id);
+                MovimentoRateio MovimentoRateio = ObterMovimentoRateioPorId(id);
 
-                if (centroCotanbil != null)
+                if (MovimentoRateio != null)
                 {
-                    oServico.Alterar(centroContabilUpdate, id);
+                    oServico.Alterar(MovimentoRateioUpdate, id);
                     oServico.SalvarContexto();
                     isUpdate = true;
                 }
@@ -94,7 +93,7 @@ namespace ControleFinanceiro.ServicosRest.Models
         public void Dispose()
         {
             oServico.Dispose();
-            oFinancaContexto.Dispose();
+            oDbFinancaContext.Dispose();
         }
     }
 }

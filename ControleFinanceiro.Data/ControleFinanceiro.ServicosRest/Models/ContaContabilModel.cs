@@ -1,10 +1,11 @@
 ﻿using ControleFinanceiro.Data.Context;
-using ControleFinanceiro.Entidade.Enum;
+using ControleFinanceiro.Entidade.Entidade;
 using ControleFinanceiro.Dominio.Servico;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using ControleFinanceiro.Entidade.Entidade;
 
 namespace ControleFinanceiro.ServicosRest.Models
 {
@@ -89,7 +90,6 @@ namespace ControleFinanceiro.ServicosRest.Models
                 return isUpdate;
             }
         }
-
 
         public void Dispose()
         {

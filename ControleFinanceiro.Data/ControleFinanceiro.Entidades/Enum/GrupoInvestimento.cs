@@ -1,5 +1,5 @@
 ﻿
-namespace CControleFinanceiro.Entidade.Enum
+namespace ControleFinanceiro.Entidade.Enum
 {
     using System;
     using System.ComponentModel;

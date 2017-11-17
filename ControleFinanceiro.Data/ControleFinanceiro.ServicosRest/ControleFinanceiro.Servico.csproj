@@ -207,8 +207,13 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CentroContabilController.cs" />
+    <Compile Include="Controllers\ContaBancariaController.cs" />
     <Compile Include="Controllers\ContaContabilController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InvestimentoController.cs" />
+    <Compile Include="Controllers\InvestimentoMovController.cs" />
+    <Compile Include="Controllers\MovimentoController.cs" />
+    <Compile Include="Controllers\MovimentoRateioController.cs" />
     <Compile Include="Controllers\PessoaController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -220,6 +225,10 @@
     <Compile Include="Models\ContaBancariaModel.cs" />
     <Compile Include="Models\ContaContabilModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\InvestimentoModel.cs" />
+    <Compile Include="Models\InvestimentoMovModel.cs" />
+    <Compile Include="Models\MovimentoModel.cs" />
+    <Compile Include="Models\MovimentoRateioModel.cs" />
     <Compile Include="Models\PessoaModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
